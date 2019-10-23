@@ -1,0 +1,32 @@
+body {
+    background: orange;
+}
+
+.white {
+    background: white;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: greenyellow;
+}
+
+.branding {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: black;
+}
