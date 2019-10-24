@@ -1,5 +1,11 @@
+/* class */
+
 body {
     background: orange;
+}
+
+.container {
+    background: white;
 }
 
 .white {
@@ -19,14 +25,30 @@ body {
     padding: 20px;
 }
 
-.container {
-    background: white;
-}
-
 nav {
     margin-top: 10px;
 }
 
 nav a {
     color: black;
+}
+
+/* more */
+
+.slider-home img {
+  width: 680px;
+}
+
+.row {
+  text-align: center;
+  color: purple;
+}
+
+.footer {
+  background: black;
+  color: white;
+}
+
+.btn {
+  background: purple;
 }
