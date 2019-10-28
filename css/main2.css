@@ -44,11 +44,14 @@ nav a {
   color: purple;
 }
 
-.footer {
-  background: black;
-  color: white;
-}
-
 .btn {
   background: purple;
+}
+
+.carousel-caption h5, p{
+  color: black;
+}
+
+.footer {
+  color: black;
 }
