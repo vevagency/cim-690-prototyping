@@ -1,7 +1,37 @@
 /* class */
 
-body {
-    background: orange;
+header {
+  background: url(../image/home/banner.jpg) repeat;
+}
+
+header img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+a:hover {
+  color: rgb(244, 79, 172);
+}
+
+a:active {
+  color: rgb(244, 79, 172);
+}
+
+/* body {
+    background: #743F6F;
+} */
+
+.carousel-control-prev, .carousel-control-next {
+  background: #743F6F;
+  /* background: black; */
 }
 
 .container {
@@ -18,20 +48,6 @@ body {
 
 .green {
     background: greenyellow;
-}
-
-.branding {
-    font-size: 28px;
-    margin-top: 10px;
-}
-
-nav {
-    margin-top: 20px;
-    text-align: right;
-}
-
-nav a {
-    color: black;
 }
 
 /* more */
