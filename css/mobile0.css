@@ -1,0 +1,313 @@
+@media (max-width: 375px) {
+  #wrapper {
+    margin: 0;
+    width: 375px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat, (5, auto);
+    grid-template-areas:
+      "logo"
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+  }
+
+  /* header */
+  .logo {
+    grid-area: logo;
+    margin: 0;
+    height: 115px;
+    max-width: 355px;
+  }
+
+  .logo img {
+    width: 31%;
+  }
+
+  header {
+    grid-area: header;
+    max-height: 300px;
+    max-width: 325px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    font-style: normal;
+  }
+
+  /* navigation */
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+    margin: 0;
+    max-width: 325px;
+    display: inline-block;
+  }
+
+  .sidebar h2 {
+    font-size: 32px;
+  }
+
+  .sidebar img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #skills strong {
+    padding: 0;
+  }
+
+  /* body main */
+  h2 {
+    font-size: 32px;
+    color: rgb(110, 34, 99);
+    margin-left: 0px;
+  }
+
+  h3, h4 {
+    color: rgb(110, 34, 99);
+    line-height: .8;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    line-height: 1.05;
+    margin: 0;
+    font-size: 21px;
+  }
+
+  h5 {
+    font-family: "Barlow Condensed", "Helvetica", sans-serif;
+    font-variant-caps: all-small-caps;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  #resume p {
+    font-size: 14px;
+  }
+
+  .bs strong {
+    padding: 0;
+  }
+
+  .bs em {
+    padding: 0;
+  }
+
+  .content {
+    grid-area: content;
+    max-width: 355px;
+  }
+
+  /* slick */
+  .image-container {
+    width: 325px;
+    margin: 0;
+  }
+
+  .image-container h4 em {
+    color: rgb(110, 34, 99);
+  }
+
+  .image-container-nav {
+    display: block;
+    margin-left: -138px;
+  }
+
+  .prev, .next {
+    color: #eee;
+    font-size: 1px;
+    float: none;
+  }
+
+  /* slick specific */
+  #homepage .image-container {
+    text-align: center;
+  }
+
+  #homepage .image-container em {
+    font-size: 20px;
+    color: rgb(110, 34, 99);
+    padding: 0;
+  }
+
+  #homepage ul {
+    display: none;
+  }
+
+  #art .image-container em {
+    font-size: 20px;
+    color: rgb(110, 34, 99);
+    padding: 0;
+  }
+
+  #art ul {
+    display: none;
+  }
+
+  /* lightbox */
+  .portfolio-gallery img {
+    width: 100px;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 6px;
+  }
+
+  .portfolio-gallery h2 {
+    margin-top: 20px;
+  }
+
+  .portfolio-gallery p {
+    font-size:
+  }
+
+  /* static images and text */
+  .pdf-blurb {
+    display: block;
+    width: 320px;
+    /* margin-top: 16px; */
+  }
+
+  .pdf-blurb img {
+    width: 250px;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    /* margin: 0; */
+    float: none;
+  }
+
+  .pdf-blurb a {
+    margin-left: 20px;
+    display: block;
+    margin-left: 18px;
+    margin-bottom: 5px;
+  }
+
+  .pdf-blurb p {
+    /* margin-top: 20px; */
+    font-size: 18px;
+    padding: 0;
+    margin-left: 18px;
+  }
+
+  .pdf-blurb strong {
+    font-size: 20px;
+  }
+
+  /* intro standard */
+  .intro {
+    max-width: 355px;
+    margin-left: 3px;
+    margin-right: -4px;
+    height: 135px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .intro h3 {
+    font-size: 18px;
+    padding-right: 70px;
+  }
+
+  .intro h4 {
+    font-size: 16px;
+    padding-right: 90px;
+    padding-top: 2px;
+  }
+
+  .intro p, strong, em {
+    font-size: 16px;
+    padding-top: 2px;
+    font-size: 14px;
+    padding-right: 50px;
+  }
+
+  .intro img {
+    width: 100px;
+    margin-top: -117px;
+    margin-right: -5px;
+  }
+
+  /* intro specific */
+  #homepage .intro {
+    width: 277px;
+    height: 125px;
+  }
+
+  #homepage .intro img {
+    margin-top: -120px;
+  }
+
+  #homepage .intro p {
+    padding-right: 20px;
+  }
+
+  #resume .intro {
+    height: 125px;
+  }
+
+  #resume .intro img {
+    margin-top: -120px;
+  }
+
+  #education .intro {
+    width: 277px;
+    height: 140px;
+  }
+
+  #education .intro img {
+    margin-top: -135px;
+  }
+
+  #education .intro h3 {
+    font-size: 17px;
+  }
+
+  #art .intro {
+    width: 277px;
+    height: 125px;
+  }
+
+  #art .intro img {
+    margin-top: -120px;
+  }
+
+  #art .intro h4 {
+    padding-right: 150px;
+  }
+
+  #art .intro p {
+    padding-right: 60px;
+  }
+
+  /* footer */
+  footer {
+    width: 375px;
+    margin: 0;
+  }
+}
