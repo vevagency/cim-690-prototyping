@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Source+Sans+Pro');
+
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Barlow Condensed", "Helvetica", sans-serif;
+  font-variant-caps: all-small-caps;
+  font-size: 48px;
+  color: #743F6F;
+  margin: 0;
+}
+
 /* class */
 
 header {
@@ -39,9 +54,9 @@ a:active {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
+  padding-top: 0px;
   color: white;
   background: #743F6F;
-  font-size: 21px;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -62,10 +77,6 @@ a:active {
 
 /* more */
 
-.slider-home img {
-  width: 680px;
-}
-
 .row {
   text-align: center;
   color: purple;
@@ -75,24 +86,47 @@ a:active {
   background: purple;
 }
 
-.carousel-caption{
-  font-size: 30px;
-}
-
-.carousel-caption p{
-  color: black;
-}
-
 /* about */
 .headshot img {
+  width: 225px;
   margin-right: 30px;
   margin-bottom: 10px;
   align-items: left;
 }
 
 .blockquote {
-  color: black;
+  color: #743F6F;
 }
+
+.intro {
+  text-align: center;
+  background: #ECECDA;
+  color: #743F6F;
+  padding: 15px;
+  padding-top: 0px;
+}
+
+.tagline {
+  color: gray;
+}
+
+#resume p {
+  margin: 0px;
+}
+
+#resume h2 {
+  padding-top: 10px;
+}
+
+
+
+.quick-links img {
+  width: 100px;
+}
+
+
+
+/* footer */
 
 footer {
   background: #743F6F;
