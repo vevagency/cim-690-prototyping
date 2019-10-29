@@ -2,19 +2,26 @@
 
 header {
   background: url(../image/home/banner.jpg) repeat;
+  margin-bottom: 20px;
 }
 
 header img {
-  width: 100px;
-  margin-top: 20px;
+  width: 110px;
+  margin: 15px;
 }
 
 nav {
-    margin: 10px;
+    background: #743F6F;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav a {
     color: white;
+}
+
+footer a {
+  color: white;
 }
 
 a:hover {
@@ -25,29 +32,32 @@ a:active {
   color: rgb(244, 79, 172);
 }
 
-/* body {
-    background: #743F6F;
-} */
+/* home */
+
+.headline {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  background: #743F6F;
+  font-size: 21px;
+}
 
 .carousel-control-prev, .carousel-control-next {
-  background: #743F6F;
-  /* background: black; */
+  background: #ECECDA;
 }
 
 .container {
     background: white;
+    background: url(../image/brand/flower-bck.jpg) repeat;
 }
 
-.white {
-    background: white;
-}
-
-.yellow {
-    background: yellow;
-}
-
-.green {
-    background: greenyellow;
+.card-3 img {
+  width: 100px;
+  margin: 10px;
+  margin-bottom: 20px;
+  color: black;
 }
 
 /* more */
@@ -65,10 +75,30 @@ a:active {
   background: purple;
 }
 
-.carousel-caption h5, p{
+.carousel-caption{
+  font-size: 30px;
+}
+
+.carousel-caption p{
   color: black;
 }
 
-.footer {
+/* about */
+.headshot img {
+  margin-right: 30px;
+  margin-bottom: 10px;
+  align-items: left;
+}
+
+.blockquote {
   color: black;
+}
+
+footer {
+  background: #743F6F;
+}
+
+footer p {
+  color: white;
+  margin-top: 20px;
 }
