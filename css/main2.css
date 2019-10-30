@@ -112,7 +112,10 @@ p, li {
 }
 
 .carousel-control-prev, .carousel-control-next {
-  background: #ECECDA;
+  background: #743F6F;
+  height: 40px;
+  width: 40px;
+  margin: auto;
 }
 
 .card-3 img {
