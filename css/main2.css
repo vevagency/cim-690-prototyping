@@ -94,8 +94,9 @@ h4 {
 }
 
 p, li {
-  line-height: 21px;
+  line-height: 24px;
   font-size: 16px;
+  margin-top: 10px;
 }
 
 /* homepage */
@@ -110,6 +111,7 @@ p, li {
   background: #743F6F;
   line-height: 40px;
 }
+
 
 .carousel-control-prev, .carousel-control-next {
   background: #743F6F;
@@ -145,10 +147,10 @@ p, li {
   margin-bottom: 10px;
 }
 
-.bio {
+.bio p {
   text-align: left;
   background: rgb(187, 148, 197, 0.05);
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* resume */
@@ -184,7 +186,8 @@ p, li {
   }
 
 #resume h4 {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
   background: rgb(187, 148, 197, 0.05);
   }
 
@@ -193,13 +196,21 @@ p, li {
   background: rgb(187, 148, 197, 0.05);
   /* background-color: blue; */
 }
-#resume p {
+
+#resume p, li {
   text-align: left;
   margin: 0;
   padding-left: 10px;
   background: rgb(187, 148, 197, 0.05);
   /* margin-bottom: 5px; */
   }
+.desc {
+  color: #743F6F;
+}
+
+.bottom {
+    padding-bottom: 20px;
+}
 
 #resume .list {
   /* padding-left: 10px; */
@@ -208,12 +219,12 @@ p, li {
 }
 
 .quick-links img {
-  width: 100px;
+  width: 65px;
 }
 
 .quick-links {
   text-align: center;
-  background: rgb(187, 148, 197, 0.05);
+  /* background: rgb(187, 148, 197, 0.05); */
   padding-bottom: 20px;
 }
 
