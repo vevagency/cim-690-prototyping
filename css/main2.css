@@ -228,6 +228,10 @@ p, li {
   padding-bottom: 20px;
 }
 
+.media p {
+  text-align: left;
+}
+
 /* footer */
 footer {
   background: #743F6F;
