@@ -228,8 +228,17 @@ p, li {
   padding-bottom: 20px;
 }
 
+/* more pages */
 .media p {
   text-align: left;
+}
+
+.ggd p {
+  text-align: left;
+}
+
+.ggd h3 {
+  text-align: center;
 }
 
 /* footer */
