@@ -241,6 +241,24 @@ p, li {
   text-align: center;
 }
 
+.reference h3 {
+  margin-bottom: 10px;
+}
+
+.reference p {
+  text-align: left;
+  margin-top: 2px;
+  margin-left: 12px;
+}
+
+.reference a {
+  color: #743F6F;
+}
+
+.reference a:hover {
+  color: rgb(244, 79, 172);
+}
+
 /* footer */
 footer {
   background: #743F6F;
